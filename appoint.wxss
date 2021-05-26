@@ -1,0 +1,40 @@
+.collect{
+  display: flex;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.collect image{
+  width: 155px;
+  height: 130px;
+  border-radius: 10px;
+}
+.cname{
+  font-size: 20px;
+  margin-left: 10rpx;
+}
+.cprice{
+  color: #ffb202;
+  margin-top: 50rpx;
+  margin-left: 10rpx;
+  font-size: 18px;
+}
+.collect1{
+  margin-left: 200rpx;
+  font-size: 15px;
+  display: flex;
+}
+.collect1 image{
+  width: 20px;
+}
+.cstall{
+  color: #ffb202;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  font-size: 14px;
+}
+.cstall1{
+  color: red;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  font-size: 16px;
+}
