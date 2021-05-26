@@ -1,0 +1,18 @@
+<view wx:for="{{alls}}" wx:key="aid" data-index="{{item.aid}}"  bindlongtap="collect" bindtap="collect3">
+  <view class="collect">
+    <image mode="widthFix" src="{{item.aimg}}" />
+    <view>
+      <view class="cname">{{item.aname}}</view>
+      <view class="cstall1">评分    {{item.ascore}}</view>
+      <view class="cstall">剩余摊位    {{item.astall}}</view>
+      <view class="collect1">
+        <view bindtap="collect1">
+          <contact-button type="default-dark" size="20" session-from="weapp">客服</contact-button>
+        </view>
+        <view bindtap="share" >
+          <image mode="widthFix" src="https://s3.ax1x.com/2020/12/01/DhSmjJ.png" />分享
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
